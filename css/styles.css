@@ -573,6 +573,10 @@ div h5#plans-h5, div h3#plans-new-price {
     .navbar-collapse {
         margin-left: 445px;
     }
+    
+    #notebook {
+        bottom: 144px;
+    }
 
     /* HOW IT WORKS */
     #moon-1 {
