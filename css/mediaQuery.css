@@ -1,0 +1,1249 @@
+/* MEDIA QUERY */
+
+@media (min-width: 2560px) {
+
+    /* HOME */
+    .navbar-collapse {
+        margin-left: 445px;
+    }
+
+    #notebook {
+        bottom: 144px;
+    }
+
+    /* HOW IT WORKS */
+    #moon-1 {
+        top: 385px;
+        left: 380px;
+    }
+
+    #moon-2 {
+        bottom: 160px;
+        right: 370px;
+    }
+
+    /* HOW IT'LL BE */
+    #hib-cp {
+        left: 560px;
+    }
+
+    #hib-cn {
+        right: 560px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        margin-left: 95px;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding: 6% 35% 8%;
+    }
+
+    #clock1 {
+        top: 65px;
+        left: 840px;
+        width: 4.7%;
+    }
+
+    #clock2 {
+        top: 270px;
+        right: 760px;
+        width: 5.4%;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        background-image: url(../assets/aboutUs/aboutUsBackground.png);
+        background-size: cover;
+        padding: 5% 34%;
+    }
+
+    /* FEEDBACK */
+    #feedback-img {
+        width: 32% !important;
+    }
+}
+
+@media (max-width: 1768px) {
+
+    /* HOME */
+    .home-container {
+        padding: 9% 3% 1%;
+    }
+
+    #notebook {
+        bottom: 147px;
+        right: 90px;
+    }
+
+    /* HOW IT WORKS */
+    #moon-1 {
+        left: 50px;
+    }
+
+    #moon-2 {
+        right: 40px;
+    }
+
+    /* HOW IT'LL BE */
+    #carrousel-video {
+        width: 900px;
+    }
+
+    #hib-cp {
+        left: 200px;
+    }
+
+    #hib-cn {
+        right: 200px;
+    }
+
+    #hib-ci {
+        bottom: 100px;
+    }
+
+    #clock1 {
+        left: 340px;
+    }
+
+    #clock2 {
+        right: 275px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        margin-left: 68.4px;
+    }
+
+    /* budget */
+    .darkPurple-card-bg {
+        width: 45%;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding: 6% 28% 8%;
+    }
+
+    #clock1 {
+        left: 460px;
+    }
+
+    #clock2 {
+        top: 258px;
+        right: 415px;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        padding: 5% 27%;
+    }
+
+    #about-us-p {
+        font-size: 1.65rem;
+    }
+
+    /* feddback */
+    #feedback-img {
+        width: 30% !important;
+    }
+
+    /* feedback */
+    #feedback-img {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 1680px) {
+
+    /* HOME */
+    #nav-img {
+        width: 75px;
+        margin: 0 15px 0 55px;
+    }
+
+    .navbar-collapse {
+        margin-left: 0;
+    }
+
+    .home-container {
+        padding: 9% 4% 1%;
+    }
+
+    #notebook {
+        bottom: 145px;
+        right: 73px;
+    }
+
+    /* HOW IT WORKS */
+    #moon-1 {
+        left: 35px;
+        top: 290px;
+    }
+
+    #moon-2 {
+        right: 25px;
+    }
+
+    /* HOW IT'LL BE  */
+    #hib-ci {
+        bottom: 80px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        margin-left: 53.25px;
+    }
+
+    /* DELIVER */
+    #clock1 {
+        left: 450px;
+    }
+
+    #clock2 {
+        top: 260px;
+        right: 400px;
+    }
+}
+
+@media (max-width:1600px) {
+    #nav-img {
+        width: 75px;
+        margin: 0 0px 0 45px;
+    }
+
+    .home-container {
+        padding: 9% 5% 1%;
+    }
+
+    #notebook {
+        bottom: 147px;
+        right: 57px;
+    }
+
+    /* HOW IT WORKS */
+    #moon-1 {
+        left: 20px;
+        top: 270px;
+    }
+
+    #moon-2 {
+        right: 10px;
+        bottom: 100px;
+    }
+
+    .purple-card-background {
+        padding: 6% 7%;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        margin-left: 35px;
+    }
+
+    /* DELIVER  */
+    #delivery-time {
+        padding: 6% 26% 8%;
+    }
+
+    #clock1 {
+        left: 405px;
+    }
+
+    #clock2 {
+        top: 255px;
+        right: 340px;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        padding: 5% 21%;
+    }
+
+    /* feedback */
+    #feedback-img {
+        width: 33% !important;
+    }
+}
+
+@media (max-width: 1440px) {
+
+    /* HOME */
+    #nav-img {
+        width: 60px;
+        margin-left: 20px;
+    }
+
+    .navbar-collapse {
+        margin-left: 0px;
+    }
+
+    .home-container {
+        padding: 10% 6% 1%;
+    }
+
+    #notebook {
+        bottom: 143px;
+    }
+
+    /* HOW IT WORKS */
+
+    .purple-card-background {
+        width: 420px;
+    }
+
+    #moon-1 {
+        top: 255px;
+        left: 10px;
+        width: 6%;
+    }
+
+    #moon-2 {
+        bottom: 100px;
+        right: 10px;
+        width: 7%;
+    }
+
+    /* HOW IT'LL BE */
+
+    #hib-cp {
+        left: 100px;
+    }
+
+    #hib-cn {
+        right: 100px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        margin-left: 15px;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding: 6% 23% 8%;
+    }
+
+    #clock1 {
+        left: 335px;
+        top: 30px;
+        width: 6.5%;
+    }
+
+    #clock2 {
+        top: 245px;
+        right: 265px;
+        width: 7.5%;
+    }
+}
+
+@media (max-width: 1366px) {
+
+    /* HOME */
+    #nav-img {
+        width: 45px;
+        margin-left: 30px;
+    }
+
+    .container-fluid.mt-3 {
+        margin-top: 0 !important;
+    }
+
+    .nav-item {
+        margin: 0 62px;
+        font-size: 1rem;
+    }
+
+    .home-container {
+        padding: 11% 3% 2%;
+    }
+
+    #home-div1-p-1, #home-div1-p-2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #home-h2 {
+        font-size: 3.3rem;
+        margin-bottom: 0;
+    }
+
+    #notebook {
+        width: 520px;
+    }
+
+    /* HOW IT WORKS */
+    .purple-card-background {
+        width: 400px;
+        padding: 4% 7%;
+    }
+
+    /* HOW IT'LL BE */
+    #hib-h2 {
+        font-size: 2.5rem;
+        font-weight: 600 !important;
+    }
+
+    #carrousel-video {
+        width: 750px;
+    }
+
+    /* PLANS */
+    .col-lg-4 li {
+        font-size: 1.05rem;
+    }
+
+    .plans-h4-size {
+        font-size: 2rem;
+    }
+
+    .plans-advanced {
+        font-size: 2.4rem;
+    }
+
+    .plans-bg {
+        width: 340.328px;
+        height: 750px;
+        margin-left: 40px;
+    }
+
+    #plans-h5 {
+        font-size: 1.2rem;
+    }
+
+    #plans-new-price {
+        font-size: 2.4rem;
+    }
+
+    h3#plans-new-price.pink-space {
+        font-size: 2.6rem;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding: 6% 21% 8%;
+    }
+
+    #clock1 {
+        left: 260px;
+    }
+
+    #clock2 {
+        right: 235px;
+    }
+
+    /* budget */
+    #budget {
+        padding: 0 12% 3%;
+    }
+
+    #about-us-container {
+        padding: 5% 27%;
+    }
+
+    #about-us-p {
+        font-size: 1.35rem;
+    }
+}
+
+@media (max-width: 1360px) {
+    p {
+        font-size: 1rem;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        width: 331.328px;
+        height: 750px;
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 1280px) {
+    P {
+        font-size: 1.1rem;
+    }
+
+    /* HOME */
+    .home-container {
+        padding: 9% 3% 0%;
+    }
+
+    /* HOW IT WORKS */
+    #HIW-p-subtitle {
+        font-size: 1.5rem;
+    }
+
+    #moon-1 {
+        top: 230px;
+    }
+
+    #moon-2 {
+        bottom: 80px;
+    }
+
+    .purple-card-background {
+        width: 360px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        width: 328.328px;
+        margin-left: 31px;
+    }
+
+    /* budget */
+    #budget-p {
+        font-size: 1.3rem;
+    }
+
+    /* ABOUT-US */
+    #about-us-p {
+        font-size: 1.25rem;
+    }
+
+    /* feedback */
+    #feedback-img {
+        width: 35% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* HOME */
+    #nav-img {
+        margin-left: 25px;
+    }
+
+    .nav-item {
+        margin: 0 30px;
+        font-size: 1rem;
+    }
+
+    .home-container {
+        padding: 9% 8% 0%;
+    }
+
+    #home-div1-p-1, #home-div1-p-2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #home-h2 {
+        font-size: 2.525rem;
+        margin-bottom: 0;
+    }
+
+    #home-h3 {
+        font-size: 2rem;
+    }
+
+    #home-div2-p {
+        font-size: 1.25rem;
+    }
+
+    #notebook {
+        width: 400px;
+        bottom: 50px;
+    }
+
+    /* HOW IT WORKS */
+    .purple-card-background {
+        width: 610px;
+        margin: 20px 0;
+    }
+
+    #HIW-h4 {
+        font-size: 1.9rem;
+    }
+
+    #moon-1 {
+        top: 220px;
+        left: 160px;
+        width: 9%;
+    }
+
+    #moon-2 {
+        bottom: 40px;
+        right: 160px;
+        width: 11%;
+    }
+
+    #pcb-2 {
+        position: static;
+    }
+
+    /* HOW IT'LL BE */
+    #hib-cp-icon, #hib-cn-icon {
+        display: none;
+    }
+
+    #hib-ci {
+        bottom: 45px;
+    }
+
+    /* PLANS */
+    #plans-h3 {
+        font-size: 2.45rem;
+        line-height: 0.8;
+    }
+
+    .purple-space span#dropshipping {
+        font-size: 2rem;
+    }
+
+    .plans-bg {
+        width: 800px;
+        margin-left: 0px;
+        height: 310px;
+        padding: 3% 2%;
+        text-align: justify;
+    }
+
+    .col-xl-4 li {
+        text-align: left;
+        margin: 0rem 1rem;
+        font-size: 1rem;
+    }
+
+    .split-content {
+        display: block;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding: 6% 20% 8%;
+    }
+
+    #delivery-time-h2 {
+        display: inline-block;
+        inline-size: 380px;
+        font-size: 2.5rem;
+    }
+
+    #clock1 {
+        left: 180px;
+    }
+
+    #clock2 {
+        right: 165px;
+        top: 210px;
+    }
+
+    /* budget */
+    .darkPurple-card-bg {
+        background-color: #271229;
+        display: inline-block;
+        width: 90%;
+        margin: 25px 0px;
+        border-radius: 20px;
+    }
+
+    .budget-text-container {
+        padding: 0;
+        line-height: 1;
+    }
+
+    #budget-p {
+        text-align: justify;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        padding: 5% 20%;
+    }
+
+    /* feedback */
+    #feedback-img {
+        width: 60% !important;
+    }
+
+    /* FAQ */
+    #FAQ {
+        padding: 0% 10% 7%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* HOME */
+    #nav-img {
+        width: 50px;
+        margin-left: 25px;
+    }
+
+    .navbar-brand {
+        padding-bottom: 0;
+    }
+
+    .home-container {
+        padding: 12% 3% 0%;
+    }
+
+    #home-div1-p-1, #home-div1-p-2 {
+        font-size: 1.3rem;
+    }
+
+    #home-h2 {
+        font-size: 2.2rem;
+    }
+
+    #home-h3 {
+        font-size: 1.9rem;
+    }
+
+    #home-div2-p {
+        padding-right: 36%;
+        font-size: 1.2rem;
+    }
+
+    #notebook {
+        width: 400px;
+        bottom: 305px;
+        left: 300px;
+    }
+
+    /* HOW IT WORKS */
+    .purple-card-background {
+        width: 560px;
+    }
+
+    #moon-1 {
+        top: 200px;
+        left: 70px;
+    }
+
+    #moon-2 {
+        bottom: 30px;
+        right: 65px;
+    }
+
+    /* PLANS */
+    .plans-bg {
+        width: 730px;
+        height: 320px;
+    }
+
+    #plans-bg-2.plans-bg, #plans-bg-3.plans-bg {
+        height: 350px;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #delivery-time-h2 {
+        font-size: 2.3rem;
+    }
+
+    #clock1 {
+        left: 85px;
+        width: 8%;
+    }
+
+    #clock2 {
+        right: 50px;
+        top: 190px;
+        width: 9%;
+    }
+
+    /* budget */
+    #budget {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    #budget-p {
+        font-size: 1.2rem;
+    }
+
+    .darkPurple-card-bg {
+        width: 80%;
+    }
+
+    #budget-card-p {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .h-100 {
+        height: 70px !important;
+    }
+
+    #shopping-bag {
+        height: 80px;
+    }
+
+    .btn {
+        padding: 10px 130px;
+    }
+
+    /* ABOUT-US */
+    #about-us-h2 {
+        font-size: 3rem;
+    }
+
+    #about-us-p {
+        font-size: 1.25rem;
+    }
+
+    /* feedback */
+    #h3-feedback {
+        font-size: 2.8rem;
+    }
+
+    /* FAQ */
+    #FAQ {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+    }
+
+    .accordion-body {
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+    #p-footer {
+        font-size: 0.9rem;
+    }
+
+    .signature {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    /* HOME */
+    .navbar-brand {
+        padding-bottom: 0.3125rem;
+    }
+
+    .navbar-brand {
+        height: 45px;
+    }
+
+    #nav-img {
+        width: 40px;
+        margin-left: 5px;
+    }
+
+    .home-container {
+        padding: 20% 6% 0;
+    }
+
+    #home-h2 {
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    #home-div1-p-1, #home-div1-p-2 {
+        font-size: 1.3rem;
+        text-align: justify;
+    }
+
+    #line {
+        font-size: 1.8rem;
+    }
+
+    #home-h3 {
+        font-size: 1.6rem;
+        margin-top: 100px;
+    }
+
+    #home-div2-p {
+        padding-right: 0;
+        font-size: 1.2rem;
+    }
+
+    .col-lg-12 {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    #notebook {
+        width: 290px;
+        position: relative;
+        bottom: 579px;
+        left: 10px;
+    }
+
+    #slide {
+        width: 15%;
+    }
+
+    /* HOW IT WORKS */
+    #HIW-h3 {
+        font-size: 2.2rem;
+    }
+
+    #HIW-p-subtitle {
+        font-size: 1.4rem;
+    }
+
+    .purple-card-background {
+        width: 360px;
+    }
+
+    #HIW-h4 {
+        font-size: 1.7rem;
+    }
+
+    #moon-1 {
+        top: 160px;
+        left: 5px;
+        width: 14%;
+    }
+
+    #moon-2 {
+        bottom: 15px;
+        right: 5px;
+        width: 16%;
+    }
+
+    /* HOW IT'LL BE */
+    #carrousel-video {
+        width: 360px;
+    }
+
+    /* PLANS */
+    #plans-h3 {
+        inline-size: 338px
+    }
+
+    #plans-h3 {
+        font-size: 2rem;
+    }
+
+    .purple-space span#dropshipping {
+        font-size: 1.8rem;
+    }
+
+    .plans-bg {
+        width: 80%;
+        height: 550px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    #plans-bg-2.plans-bg, #plans-bg-3.plans-bg {
+        height: 560px;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        position: relative;
+        z-index: 1;
+    }
+
+    #delivery-time-h2 {
+        font-size: 2rem;
+        inline-size: 330px;
+    }
+
+    #delivery-time-p {
+        font-size: 1rem;
+    }
+
+    #clock1, #clock2 {
+        z-index: -1;
+    }
+
+    #clock1 {
+        left: 10px;
+        width: 12%;
+    }
+
+    #clock2 {
+        right: 10px;
+        top: 190px;
+        width: 15%;
+    }
+
+    /* budget */
+    .darkPurple-card-bg {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 10px 50px;
+        font-size: 0.9rem;
+    }
+
+    .budget-text-container {
+        line-height: 1.3;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        padding: 15% 7%;
+    }
+
+    #about-us-h2 {
+        font-size: 2.5rem;
+    }
+
+    #about-us-p {
+        font-size: 1.2rem;
+    }
+
+    /* feedback */
+    #feedback {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #h3-feedback {
+        font-size: 2.2rem;
+    }
+
+    #feedback-img {
+        width: 80% !important;
+    }
+
+    #feedback-ci {
+        display: none;
+    }
+
+    #feedback-cp {
+        left: -10px;
+    }
+
+    #feedback-cn {
+        right: -10px;
+    }
+}
+
+@media (max-width: 375px) {
+    ol, ul {
+        padding-left: 1.5rem;
+    }
+
+    div#budget br {
+        display: none;
+    }
+
+    /* HOME */
+    button.navbar-toggler {
+        width: 50px;
+        height: 40px;
+    }
+
+    span.navbar-toggler-icon {
+        width: 20px
+    }
+
+    .home-container {
+        padding: 20% 4% 0;
+    }
+
+    #line {
+        font-size: 1.15rem;
+    }
+
+    #home-h2 {
+        font-size: 1.8rem;
+    }
+
+    #home-h3 {
+        font-size: 1.5rem;
+    }
+
+    #notebook {
+        width: 272px;
+        position: relative;
+        bottom: 602px;
+        left: 0px;
+    }
+
+    .col-lg-12 {
+        margin: 30px 0;
+    }
+
+    /* HOW IT WORKS */
+    .purple-card-background {
+        width: 320px;
+    }
+
+    /* HOW IT'LL BE */
+    #hib-h2 {
+        font-size: 2.35rem;
+    }
+
+    /* PLANS */
+    #plans-h3 {
+        font-size: 2rem;
+        inline-size: 370px;
+    }
+
+    .purple-space span#dropshipping {
+        font-size: 1.8rem;
+    }
+
+    .plans-h4-size {
+        font-size: 1.6rem;
+    }
+
+    .plans-advanced {
+        font-size: 1.8rem;
+    }
+
+    .plans-bg {
+        height: 615px;
+        padding: 10% 0%;
+    }
+
+    #plans-bg-2.plans-bg, #plans-bg-3.plans-bg {
+        height: 630px;
+    }
+
+    #plans-h5 {
+        font-size: 1.1rem;
+    }
+
+    #plans-new-price {
+        font-size: 2rem;
+    }
+
+    h3#plans-new-price.pink-space {
+        font-size: 2.3rem;
+    }
+
+    /* DELIVER */
+    #delivery-time-h2 {
+        font-size: 1.9rem;
+        inline-size: 300px;
+    }
+
+    #clock1 {
+        top: 45px;
+    }
+
+    /* ABOUT-US */
+    #about-us-container {
+        padding: 15% 5%;
+    }
+
+    #about-us-p {
+        font-size: 1.15rem;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* HOME */
+    #home-div1-p-1, #home-div1-p-2 {
+        font-size: 1.4rem;
+    }
+
+    #line {
+        font-size: 2.2rem;
+    }
+
+    #home-h2 {
+        font-size: 1.55rem;
+    }
+
+
+    /* HOW IT WORKS */
+    #HIW-h3 {
+        font-size: 2rem;
+    }
+
+    #HIW-p-subtitle {
+        font-size: 1.2rem;
+        inline-size: 233px;
+    }
+
+    #HIW-h4 {
+        font-size: 1.5rem;
+    }
+
+    .purple-card-background {
+        width: 285px;
+    }
+
+    #moon-1 {
+        top: 150px;
+    }
+
+    /* HOW IT'LL BE */
+    #hib-h2 {
+        font-size: 2rem;
+    }
+
+    #carrousel-video {
+        width: 305px;
+    }
+
+    /* PLANS */
+    #plans-h3 {
+        font-size: 1.8rem;
+        inline-size: 300px;
+    }
+
+    .purple-space span#dropshipping {
+        font-size: 1.5rem;
+    }
+
+    .plans-bg {
+        width: 100%;
+        height: 630px;
+    }
+
+    #plans-bg-2.plans-bg, #plans-bg-3.plans-bg {
+        height: 645px;
+    }
+
+    /* DELIVER */
+    #delivery-time {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #delivery-time-h2 {
+        inline-size: 215px;
+    }
+
+    #clock2 {
+        right: 10px;
+        top: 240px;
+        width: 15%;
+    }
+
+    /* budget */
+    .btn {
+        padding: 10px 30px;
+    }
+
+    .btn-2 {
+        padding: 11px 60px;
+    }
+
+    .btn-2a {
+        padding: 11px 65px;
+    }
+
+    /* ABOUT-US */
+    #about-us-h2 {
+        font-size: 2.3rem;
+    }
+
+    #about-us-p {
+        text-align: justify;
+    }
+
+    /* feedback */
+    #h3-feedback {
+        font-size: 2rem;
+    }
+}
