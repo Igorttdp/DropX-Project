@@ -863,9 +863,9 @@
 
     @supports (-webkit-touch-callout: none) {
         #plans {
-            background: url(../assets/plans/plansBackground1.png) center top no-repeat scroll;
+            background: url(../assets/plans/plansBackground1.png) bottom center no-repeat scroll;
             background-attachment: scroll;
-            background-size: cover;
+            background-size: cover 100%;
         }
     }
 
