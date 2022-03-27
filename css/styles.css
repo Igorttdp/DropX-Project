@@ -68,7 +68,7 @@ hr:not([size]){
 .bg-none {
     background-color: rgba(0, 0, 0, 0.30);
     backdrop-filter: blur(14px);
-    backdrop-filter: -webkit-blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 }
 
 #nav-img {
@@ -327,7 +327,7 @@ div#h0.col-lg-5 {
 .plans-bg {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
-    backdrop-filter: -webkit-blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 2% 3%;
     border-radius: 20px;
     width: 65%;
