@@ -855,6 +855,13 @@
         width: 9%;
     }
 
+    #plans {
+        background-attachment: scroll;
+        background-attachment: -webkit-scroll;
+        background-attachment: -moz-scroll;
+        background-attachment: -o-scroll;
+    }
+
     /* budget */
     #budget {
         padding-right: 8%;
