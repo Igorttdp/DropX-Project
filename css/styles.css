@@ -53,6 +53,9 @@ hr:not([size]){
     background-image: url(../assets/home/homeBackground.png);
     background-position: top center;
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
 }
 
 /* NAVBAR */
@@ -65,6 +68,7 @@ hr:not([size]){
 .bg-none {
     background-color: rgba(0, 0, 0, 0.30);
     backdrop-filter: blur(14px);
+    backdrop-filter: -webkit-blur(14px);
 }
 
 #nav-img {
@@ -174,6 +178,9 @@ div#h0.col-lg-5 {
     background-image: url(../assets/howitworks/HIWbackground.png);
     background-position: top center;
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     position: relative;
     z-index: 2;
     background-attachment: fixed;
@@ -217,6 +224,8 @@ div#h0.col-lg-5 {
 
 .col-xl-4 {
     text-align: -webkit-center;
+    text-align: -moz-center;
+    padding: 0%;
 }
 
 #pcb-2 {
@@ -227,6 +236,9 @@ div#h0.col-lg-5 {
 #how-itll-be {
     background-image: url(../assets/howItWillBe/HIBbackground.png);
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
 }
 
 #moon-1, #moon-2 {
@@ -247,20 +259,20 @@ div#h0.col-lg-5 {
 /* CARROUSEL */
 
 #carrousel-video {
-    width: 886px;
+    width: 50%;
     border-radius: 20px;
 }
 
 #hib-cp {
-    left: 300px;
+    left: 10%;
 }
 
 #hib-cn {
-    right: 300px;
+    right: 10%;
 }
 
 #hib-ci {
-    bottom: 125px;
+    bottom: 10%;
 }
 
 #hib-cp-icon, #hib-cn-icon {
@@ -298,6 +310,9 @@ div#h0.col-lg-5 {
     background-image: url(../assets/plans/plansBackground1.png);
     background-position: bottom center;
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     background-attachment: fixed;
     padding-bottom: 5%;
 }
@@ -312,10 +327,11 @@ div#h0.col-lg-5 {
 .plans-bg {
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
+    backdrop-filter: -webkit-blur(10px);
     padding: 2% 3%;
     border-radius: 20px;
-    width: 421.328px;
-    height: 770px;
+    width: 65%;
+    height: 85%;
 }
 
 #plans-h3 {
@@ -331,10 +347,12 @@ div#h0.col-lg-5 {
 
 .plans-h4-size {
     font-size: 2.2rem;
+    text-align: -webkit-match-parent;
 }
 
 .plans-advanced {
     font-size: 2.6rem;
+    text-align: -webkit-match-parent;
 }
 
 .cut-price {
@@ -376,6 +394,9 @@ div h5#plans-h5, div h3#plans-new-price {
 #delivery-time {
     background-image: url(../assets/deliver/DTbackground.png);
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     padding: 6% 30% 8%;
 }
 
@@ -405,6 +426,9 @@ div h5#plans-h5, div h3#plans-new-price {
 #budget {
     background-image: url(../assets/deliver/budgetBackground.png);
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     padding: 0 15% 3%;
 }
 
@@ -485,6 +509,9 @@ div h5#plans-h5, div h3#plans-new-price {
 #about-us-container {
     background-image: url(../assets/aboutUs/aboutUsBackground.png);
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     padding: 5% 28%;
 }
 
@@ -502,6 +529,9 @@ div h5#plans-h5, div h3#plans-new-price {
 #feedback {
     background-image: url(../assets/aboutUs/FeedbackBackground.png);
     background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
     padding: 0% 20% 10%;
 }
 
@@ -596,4 +626,3 @@ footer {
     text-decoration: none;
     color: #7c7979;
 }
-
