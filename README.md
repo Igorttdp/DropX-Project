@@ -3,4 +3,4 @@ Landing Page design made using bootstrap 5, HTML5, CSS3 and a little of JavaScri
 
 Full browser compatibility and fully responsive page
 
-https://igorttdp.github.io/DropX-Project/
+Click here: https://igorttdp.github.io/DropX-Project/
