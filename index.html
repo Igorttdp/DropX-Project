@@ -9,6 +9,11 @@
 
     <!-- SEO Geral -->
     <title>DropX</title>
+    <meta name="description"
+        content="DropX, Agência especializada em criação de lojas para dropshipping!">
+    <link rel="canonical" href="https://dropxagencia.com.br/">
+    <meta name="author" content="Igor Torres">
+    <meta name=”robots” content="index, follow">
 
     <!-- Bootstrap -->
     <!-- CSS only -->
@@ -22,6 +27,7 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/mediaQuery.css">
+    <link rel="icon" href="assets/home/DropX.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,44 +36,49 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- Font Aweasome -->
-    <script src="https://kit.fontawesome.com/870a7a7eda.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-    <section id="home">
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-none">
-            <div class="container-fluid mt-3">
-                <a class="navbar-brand" href="#home">
-                    <h1><img id="nav-img" src="assets/home/DropX.png" alt="DropX"></h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#how-it-works">Como Funciona</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#plans">Planos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#feedback">FeedBacks</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <!-- Whatsapp Button -->
+    <button type="button" id="wpp-btn" class="wpp-btn-hidden">
+        <a href="#" target="_blank">
+            <img src="./assets/whatsapp.png" alt="Whatsapp logo" class="img-btn-wpp">
+        </a>
+    </button>
 
+    <section id="home">
+        <header>
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-none">
+                <div class="container-fluid mt-3">
+                    <a class="navbar-brand" href="#home">
+                        <h1><img id="nav-img" src="assets/home/DropX.png" alt="DropX"></h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#how-it-works">Como Funciona</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#plans">Planos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-us">Quem Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#feedback">FeedBacks</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <div class="home-container container">
             <div class="div-1 mt-4 row">
                 <div class="col-xxl-12">
@@ -180,29 +191,29 @@
                     aria-label="Slide 5"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="38000">
+                <div class="carousel-item active" data-bs-interval="25000">
                     <video id="carrousel-video" class="img-fluid" autoplay loop muted>
-                        <source src="assets/howItWillBe/CCG Kids.mp4" type="video/mp4" />
+                        <source src="assets/howItWillBe/Arigato.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="carousel-item" data-bs-interval="21000">
+                    <video id="carrousel-video" class="img-fluid" autoplay loop muted>
+                        <source src="assets/howItWillBe/Elevador.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="carousel-item" data-bs-interval="22000">
+                    <video id="carrousel-video" class="img-fluid" autoplay loop muted>
+                        <source src="assets/howItWillBe/Meridiano.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <div class="carousel-item" data-bs-interval="27000">
                     <video id="carrousel-video" class="img-fluid" autoplay loop muted>
-                        <source src="assets/howItWillBe/Meridiano Shop.mp4" type="video/mp4" />
+                        <source src="assets/howItWillBe/Midas.mp4" type="video/mp4" />
                     </video>
                 </div>
-                <div class="carousel-item" data-bs-interval="30000">
+                <div class="carousel-item" data-bs-interval="24000">
                     <video id="carrousel-video" class="img-fluid" autoplay loop muted>
-                        <source src="assets/howItWillBe/Midas Market.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <div class="carousel-item" data-bs-interval="25000">
-                    <video id="carrousel-video" class="img-fluid" autoplay loop muted>
-                        <source src="assets/howItWillBe/O elevador.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <div class="carousel-item" data-bs-interval="32000">
-                    <video id="carrousel-video" class="img-fluid" autoplay loop muted>
-                        <source src="assets/howItWillBe/Tech Sparkle.mp4" type="video/mp4" />
+                        <source src="assets/howItWillBe/TechSparkle.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <button id="hib-cp" class="carousel-control-prev" type="button"
@@ -255,7 +266,9 @@
                         </ul>
                     </div>
                     <h5 id="plans-h5" class="mt-4 weight-normal">DE <span class="cut-price">R$559,00</span> POR</h5>
-                    <h3 id="plans-new-price" class="purple-space">R$ 447,00</h3>
+                    <h3 id="plans-new-price" ><a class="purple-space purple-space-a" target="blank_"
+                            href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+eu+tenho+interesse+no+Plano+B%C3%A1sico%21">R$
+                            447,00</a></h3>
                 </div>
                 <hr class="split-content">
                 <div class="col-xl-4">
@@ -286,7 +299,9 @@
                         </ul>
                     </div>
                     <h5 id="plans-h5" class="mt-4 weight-normal">DE <span class="cut-price">R$1059,00</span> POR</h5>
-                    <h3 id="plans-new-price" class="pink-space">R$ 797,00</h3>
+                    <h3 id="plans-new-price"> <a class="pink-space pink-space-a" target="blank_"
+                            href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+eu+tenho+interesse+no+Plano+Avan%C3%A7ado%21">R$
+                            797,00</a></h3>
                 </div>
                 <hr class="split-content">
                 <div class="col-xl-4">
@@ -318,7 +333,9 @@
                         </ul>
                     </div>
                     <h5 id="plans-h5" class="mt-4 weight-normal">DE <span class="cut-price">R$ 759,00</span> POR</h5>
-                    <h3 id="plans-new-price" class="purple-space">R$ 597,00</h3>
+                    <h3 id="plans-new-price"> <a class="purple-space purple-space-a" target="blank_"
+                            href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+eu+tenho+interesse+no+Plano+Intermedi%C3%A1rio%21">R$
+                            597,00</a></h3>
                 </div>
             </div>
         </div>
@@ -340,7 +357,8 @@
                 <div class="darkPurple-card-pd">
                     <img class="h-100" src="assets/deliver/Creativity.png" alt="Criatividade">
                     <p id="budget-card-p" class="uppercase">Criativos Profissionais<br>ㅤ</p>
-                    <a href="#" class="btn">FAZER ORÇAMENTO</a>
+                    <a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento+para+a+cria%C3%A7%C3%A3o+de+criativos+com+um+profissional+da+%C3%A1rea%21"
+                        class="btn-1 dcp-transition">FAZER ORÇAMENTO</a>
                 </div>
             </div>
 
@@ -348,7 +366,8 @@
                 <div class="darkPurple-card-pd">
                     <img class="h-100" src="assets/deliver/Data Management.png" alt="Gestão de Tráfego">
                     <p id="budget-card-p" class="uppercase">Gestão de Tráfego para seu<br>negócio</p>
-                    <a href="#" class="btn">FAZER ORÇAMENTO</a>
+                    <a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento+para+gest%C3%A3o+de+tr%C3%A1fego+com+um+profissional+da+%C3%A1rea%21"
+                        class="btn-1 dcp-transition">FAZER ORÇAMENTO</a>
                 </div>
             </div>
 
@@ -356,7 +375,8 @@
                 <div class="darkPurple-card-pd">
                     <img class="h-100" src="assets/deliver/Mentoring.png" alt="Mentoria">
                     <p id="budget-card-p" class="uppercase">Mentoria de Trafego Pago<br>(Individual)</p>
-                    <a href="#" class="btn">FAZER ORÇAMENTO</a>
+                    <a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+mentoria+individual+de+tr%C3%A1fego+pago+com+um+profissional+da+%C3%A1rea%21"
+                        class="btn-1 dcp-transition">FAZER ORÇAMENTO</a>
                 </div>
             </div>
 
@@ -364,7 +384,8 @@
                 <div class="darkPurple-card-pd">
                     <img class="h-100" src="assets/deliver/Graphic design.png" alt="Design">
                     <p id="budget-card-p" class="uppercase">Serviços de Design<br>ㅤ</p>
-                    <a href="#" class="btn">FAZER ORÇAMENTO</a>
+                    <a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+fazer+um+or%C3%A7amento+sobre+servi%C3%A7os+de+design+para+minha+loja+de+dropshipping."
+                        class="btn-1 dcp-transition">FAZER ORÇAMENTO</a>
                 </div>
             </div>
 
@@ -373,9 +394,12 @@
                     <img id="shopping-bag" src="assets/deliver/Shopping bag.png" alt="Sacola de Compras">
                     <p id="budget-card-p" class="uppercase">Adição de Produtos</p>
                     <ul class="ps-0">
-                        <li><a href="#" class="btn-2 btn-2a">5 PRODUTOS</a></li>
-                        <li><a href="#" class="btn-2 btn-2b">15 PRODUTOS</a></li>
-                        <li><a href="#" class="btn-2 btn-2c">30 PRODUTOS</a></li>
+                        <li><a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+adicionar+5+produtos+na+minha+loja%21"
+                                class="btn-2 btn-2a">5 PRODUTOS</a></li>
+                        <li><a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+adicionar+15+produtos+na+minha+loja%21"
+                                class="btn-2 btn-2b">15 PRODUTOS</a></li>
+                        <li><a target="blank_" href="https://wa.me/5598991987598?text=Ol%C3%A1%2C+gostaria+de+adicionar+30+produtos+na+minha+loja%21"
+                                class="btn-2 btn-2c">30 PRODUTOS</a></li>
                     </ul>
                 </div>
             </div>
@@ -615,13 +639,13 @@
                     </div>
 
                 </div>
-                <button id="feedback-cp" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
+                <button id="feedback-cp" class="carousel-control-prev" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button id="feedback-cn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
+                <button id="feedback-cn" class="carousel-control-next" type="button"
+                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -813,11 +837,35 @@
         </div>
     </section>
 
+    <script src="https://kit.fontawesome.com/eb0dc0a8a6.js" crossorigin="anonymous"></script>
     <script src="./script/script.js"></script>
+
 </body>
 
 <footer>
-    <p id="p-footer">©2021 DropX<br><span class="signature">Developed by <a class="gitlink" href="https://github.com/Igorttdp" target="blank_">Igorttdp</a></span></p>    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 footer-align">
+                <img id="dropX-footer" src="assets/home/DropX.png" alt="Drop X logo">
+                <br>
+                <a href="#"><button id="insta-footer-btn" type="button" class="btn btn-outline-danger"><i
+                            aria-hidden="true" class="fab fa-instagram"></i> Instagram</button></a>
+            </div>
+            <div class="col-lg-6 footer-align">
+                <a href="#"><button id="wpp-footer-btn" type="button" class="btn btn-outline-success"><i
+                            aria-hidden="true" class="fab fa-whatsapp"></i> Entre em Contato</button></a>
+                <br>
+                <a href="mailto:comercial@dropxagencia.com.br"><button id="email-footer-btn" type="button"
+                        class="btn btn-outline-secondary"><i class="fa-solid fa-envelope"></i>
+                        comercial@dropxagencia.com.br</button></a>
+            </div>
+        </div>
+    </div>
+    <p id="p-footer">©2022 DropX<br><span class="signature">Developed by <a class="gitlink"
+                href="https://github.com/Igorttdp" target="blank_">Igorttdp</a> from</span></p>
+    <img id="SoutEast" src="assets/SouthEast_Midia_Logo.png" alt="SouthEast Midia Logo">
+    <p id="p-footer-2">WhatsApp icon by <a class="gitlink" href="https://www.flaticon.com/free-icons/whatsapp"
+            target="blank_" title="whatsapp icons">Freepik - Flaticon</a></p>
 </footer>
 
 </html>
