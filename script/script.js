@@ -1,6 +1,7 @@
 const navbar = document.querySelector(".navbar");
 
-// When the user scrolls down 20px from the top of the document, show the button
+const instaBtn = document.querySelector("#wpp-btn");
+
 window.onscroll = function () {
   scrollFunction();
 }
@@ -8,11 +9,13 @@ window.onscroll = function () {
 function scrollFunction() {
 
   if (
-    document.body.scrollTop > 200 ||
-    document.documentElement.scrollTop > 200
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
   ) {
     navbar.style.position = "fixed";
+    instaBtn.classList.replace("wpp-btn-hidden", "wpp-btn-show");
   } else {
     navbar.style.position = "absolute";
+    instaBtn.classList.replace("wpp-btn-show", "wpp-btn-hidden");
   }
 }
