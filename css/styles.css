@@ -6,6 +6,10 @@ body {
     background-color: black;
 }
 
+h1 {
+    margin: 0%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: 900 !important;
 }
@@ -18,11 +22,7 @@ li {
     list-style: none;
 }
 
-a:hover {
-    color: #271229;
-}
-
-hr:not([size]){
+hr:not([size]) {
     height: 0px;
 }
 
@@ -46,6 +46,35 @@ hr:not([size]){
 
 .weight-bolder {
     font-weight: 900;
+}
+
+.img-btn-wpp {
+    width: 50px;
+    height: 50px;
+}
+
+.wpp-btn-hidden, .wpp-btn-show {
+    position: fixed;
+    bottom: 15px;
+    right: 12px;
+    opacity: 1;
+    z-index: 9999;
+    background: none;
+    border: none;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.wpp-btn-hidden {
+    -webkit-transform: translateY(150%);
+    transform: translateY(150%);
+}
+
+.wpp-btn-show {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
 }
 
 /* HOME */
@@ -372,6 +401,18 @@ h3#plans-new-price.pink-space {
     font-size: 3rem;
 }
 
+a.pink-space, a.purple-space {
+    text-decoration: none;
+}
+
+a.purple-space:hover {
+    color: #fd53fd;
+}
+
+a.pink-space:hover {
+    color: #e40090;
+}
+
 .check {
     list-style: url(../assets/plans/check.png);
 }
@@ -429,7 +470,7 @@ div h5#plans-h5, div h3#plans-new-price {
     background-size: -webkit-cover;
     background-size: -moz-cover;
     background-size: -o-cover;
-    padding: 0 15% 3%;
+    padding: 0 16% 3%;
 }
 
 .darkPurple-card-bg {
@@ -448,6 +489,16 @@ div h5#plans-h5, div h3#plans-new-price {
     padding: 2%;
 }
 
+.dcp-transition:not(:hover) {
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.dcp-transition:hover, .btn-2:hover {
+    color: #271229;
+    transition: .3s;
+}
+
 #budget-card-p {
     font-size: 1.1rem;
     margin-top: 0.5rem;
@@ -457,12 +508,11 @@ div h5#plans-h5, div h3#plans-new-price {
     height: 100px !important;
 }
 
-.btn {
+.btn-1 {
     background-color: #fe75ff;
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
-    color: #ffffff;
     font-family: Arial;
     font-size: 15px;
     font-weight: bold;
@@ -475,7 +525,6 @@ div h5#plans-h5, div h3#plans-new-price {
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
-    color: #ffffff;
     font-family: Arial;
     font-size: 15px;
     font-weight: bold;
@@ -487,6 +536,11 @@ div h5#plans-h5, div h3#plans-new-price {
     transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
     transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out;
     transition-delay: 0s, 0s, 0s, 0s;
+}
+
+.btn-2:not(:hover) {
+    color: #ffffff;
+    transition: .3s;
 }
 
 .btn-2a {
@@ -610,6 +664,48 @@ footer {
 
 #p-footer {
     font-size: 1rem;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+#p-footer-2 {
+    font-size: 0.5rem;
+    color: #aeaeae;
+}
+
+.footer-align {
+    text-align: center;
+}
+
+.btn-outline-success {
+    margin: 5rem 0 1rem 0;
+}
+
+.btn-outline-danger {
+    color: white;
+    border-color: white;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #D62976;
+    border-color: #D62976;
+}
+
+#dropX-footer {
+    margin: 1rem 0;
+}
+
+#insta-footer-btn {
+    padding: 8px 120px;
+}
+
+#wpp-footer-btn {
+    padding: 8px 162px;
+}
+
+#email-footer-btn {
+    padding: 8px 100px;
 }
 
 .signature {
@@ -625,4 +721,9 @@ footer {
 .gitlink:hover {
     text-decoration: none;
     color: #7c7979;
+}
+
+#SoutEast {
+    width: 6%;
+    margin: 1rem 0;
 }
