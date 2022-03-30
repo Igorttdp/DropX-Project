@@ -269,6 +269,11 @@
         bottom: 143px;
     }
 
+    /* FOOTER */
+    #SoutEast {
+        width: 7%;
+    }
+
     /* HOW IT WORKS */
 
     .purple-card-background {
@@ -470,6 +475,11 @@
     #about-us-p {
         font-size: 1.35rem;
     }
+
+    /* FOOTER */
+    #wpp-footer-btn {
+        padding: 8px 161px;
+    }
 }
 
 
@@ -547,6 +557,11 @@
     #feedback-img {
         width: 35% !important;
     }
+
+    /* FOOTER */
+    #SoutEast {
+        width: 7%;
+    }
 }
 
 @media (max-width: 1199.98px) {
@@ -617,6 +632,15 @@
 
     .h-100 {
         height: 80px !important;
+    }
+
+    /* FOOTER */
+    #wpp-footer-btn {
+        padding: 8px 127px;
+    }
+
+    #email-footer-btn {
+        padding: 8px 65px;
     }
 }
 
@@ -769,18 +793,32 @@
     #FAQ {
         padding: 0% 10% 7%;
     }
+
+    /* FOOTER */
+    #wpp-footer-btn {
+        padding: 8px 126px;
+    }
+
+    #SoutEast {
+        width: 9%;
+    }
 }
 
 @media (max-width: 991.98px) {
 
     /* HOME */
     #nav-img {
-        width: 50px;
+        width: 40px;
         margin-left: 25px;
     }
 
-    .navbar-brand {
-        padding-bottom: 0;
+    .navbar-toggler-icon {
+        width: 20px
+    }
+
+    #navbar {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
     }
 
     .home-container {
@@ -856,6 +894,7 @@
         width: 9%;
     }
 
+    /* IOS SUPPORT */
     @supports (-webkit-touch-callout: none) {
         #plans {
             background: url(../assets/plans/plansBackground1.png) bottom center no-repeat scroll;
@@ -929,6 +968,19 @@
     }
 
     /* Footer */
+    #insta-footer-btn {
+        padding: 8px 157px;
+    }
+
+    #wpp-footer-btn {
+        margin: 1rem 0;
+        padding: 8px 127px;
+    }
+
+    #email-footer-btn {
+        padding: 8px 65px;
+    }
+
     #p-footer {
         font-size: 0.9rem;
     }
@@ -940,7 +992,17 @@
 
 @media (max-width: 767.98px) {
 
+    /* WPP BUTTON */
+    .img-btn-wpp {
+        width: 40px;
+        height: 40px;
+    }
+
     /* HOME */
+    .navbar-toggler-icon {
+        width: 20px
+    }
+
     #line {
         font-size: 3.8rem;
     }
@@ -1011,6 +1073,11 @@
     #about-us-container {
         padding: 8% 10%;
     }
+
+    /* FOOTER */
+    #SoutEast {
+        width: 13%;
+    }
 }
 
 @media (max-width: 575.98px) {
@@ -1048,6 +1115,11 @@
 
     #feedback-cn {
         left: 90%;
+    }
+
+    /* FOOTER */
+    #SoutEast {
+        width: 18%;
     }
 }
 
@@ -1259,6 +1331,23 @@
     #feedback-cn {
         right: -10px;
     }
+
+    /* FOOTER */
+    #insta-footer-btn {
+        padding: 8px 132px;
+    }
+
+    #wpp-footer-btn {
+        padding: 8px 105px;
+    }
+
+    #email-footer-btn {
+        padding: 8px 50px;
+    }
+
+    #SoutEast {
+        width: 22%;
+    }
 }
 
 @media (max-width: 414px) {
@@ -1312,11 +1401,17 @@
     }
 
     #line {
-        font-size: 2.29rem;
+        font-size: 3.5rem;
     }
 
     #home-h2 {
-        font-size: 2rem;
+        text-align: center;
+        word-break: break-all;
+    }
+
+    #space {
+        position: relative;
+        z-index: 1;
     }
 
     #home-h3 {
@@ -1445,6 +1540,19 @@
         font-size: 1.15rem;
         line-height: 1.2;
     }
+
+    /* FOOTER */
+    #insta-footer-btn {
+        padding: 8px 103px;
+    }
+
+    #wpp-footer-btn {
+        padding: 8px 76px;
+    }
+
+    #email-footer-btn {
+        padding: 8px 20px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -1551,5 +1659,18 @@
     /* feedback */
     #h3-feedback {
         font-size: 2rem;
+    }
+
+    /* FOOTER */
+    #insta-footer-btn {
+        padding: 8px 93px;
+    }
+
+    #wpp-footer-btn {
+        padding: 8px 65px;
+    }
+
+    #email-footer-btn {
+        padding: 8px 10px;
     }
 }
