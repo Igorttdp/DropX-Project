@@ -44,13 +44,12 @@ hr:not([size]) {
     font-weight: 500 !important;
 }
 
-.weight-bolder {
-    font-weight: 900;
+.weight-700 {
+    font-weight: 700!important;
 }
 
-.img-btn-wpp {
-    width: 50px;
-    height: 50px;
+.weight-bolder {
+    font-weight: 900;
 }
 
 .wpp-btn-hidden, .wpp-btn-show {
@@ -185,7 +184,7 @@ div#h0.col-lg-5 {
     text-shadow: 0px 0px 20px #ff4fffd9;
 }
 
-#home-div2-p {
+.home-div2-p {
     font-size: 1.5rem;
 }
 
@@ -243,7 +242,7 @@ div#h0.col-lg-5 {
     width: 444px;
 }
 
-#HIW-h4 {
+.HIW-h4 {
     font-size: 2rem;
 }
 
@@ -287,7 +286,7 @@ div#h0.col-lg-5 {
 /* HOW IT'LL BE */
 /* CARROUSEL */
 
-#carrousel-video {
+.carrousel-video {
     width: 50%;
     border-radius: 20px;
 }
@@ -389,28 +388,58 @@ div#h0.col-lg-5 {
     text-decoration: line-through;
 }
 
-#plans-h5 {
+.plans-h5 {
     font-size: 1.6rem;
 }
 
-#plans-new-price {
+.plans-new-price {
     font-size: 2.8rem;
+    margin: 0;
 }
 
-h3#plans-new-price.pink-space {
+h3.plans-new-price.pink-space {
     font-size: 3rem;
 }
 
-a.pink-space, a.purple-space {
+.uni {
+    color: #aeaeae;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.plans-btn:not(:hover) {
+    background-image: linear-gradient(280deg, #801e80 0%, #550055 100%);
+    background-color: #723d72;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 11px 70px;
     text-decoration: none;
+    transition: all .3s;
 }
 
-a.purple-space:hover {
-    color: #fd53fd;
+.plans-btn:hover {
+    background-image: linear-gradient(280deg, #550055 0%, #801e80 100%); 
+    background-color: #723d72;
+    border-radius: 30px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 14px 60px;
+    text-decoration: none;
+    transition: all .3s;
 }
 
-a.pink-space:hover {
-    color: #e40090;
+#plans-np-btn:not(:hover) {
+    background-image: linear-gradient(280deg, #63234f 0%, #550239 100%);
+    background-color: #ff0095;
+}
+
+#plans-np-btn:hover {
+    background-image: linear-gradient(280deg, #550239 0%, #63234f 100%);
+    background-color: #ff0095;
 }
 
 .check {
@@ -421,7 +450,7 @@ a.pink-space:hover {
     list-style: url(../assets/plans/not-check.png);
 }
 
-div h5#plans-h5, div h3#plans-new-price {
+div h5.plans-h5, div h3.plans-new-price {
     line-height: 0.7;
 }
 
@@ -499,7 +528,7 @@ div h5#plans-h5, div h3#plans-new-price {
     transition: .3s;
 }
 
-#budget-card-p {
+.budget-card-p {
     font-size: 1.1rem;
     margin-top: 0.5rem;
 }
@@ -598,7 +627,7 @@ div h5#plans-h5, div h3#plans-new-price {
     font-weight: 600 !important;
 }
 
-#feedback-img {
+.feedback-img {
     border-radius: 20px;
     width: 27% !important;
 }
