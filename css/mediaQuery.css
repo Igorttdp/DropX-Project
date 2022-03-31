@@ -56,7 +56,7 @@
     }
 
     /* FEEDBACK */
-    #feedback-img {
+    .feedback-img {
         width: 32% !important;
     }
 }
@@ -83,7 +83,7 @@
     }
 
     /* HOW IT'LL BE */
-    #carrousel-video {
+    .carrousel-video {
         width: 65%;
     }
 
@@ -136,7 +136,7 @@
     }
 
     /* feddback */
-    #feedback-img {
+    .feedback-img {
         width: 35% !important;
     }
 }
@@ -177,9 +177,17 @@
         width: 70%;
     }
 
+    .plans-btn:not(:hover) {
+        padding: 11px 35px;
+    }
+
+    .plans-btn:hover {
+        padding: 14px 45px;
+    }
+
     /* HOW IT'LL BE  */
     #hib-ci {
-        bottom: 10%px;
+        bottom: 10%;
     }
 
     /* DELIVER */
@@ -244,7 +252,7 @@
     }
 
     /* feedback */
-    #feedback-img {
+    .feedback-img {
         width: 33% !important;
     }
 }
@@ -421,7 +429,7 @@
         font-weight: 600 !important;
     }
 
-    #carrousel-video {
+    .carrousel-video {
         width: 55%;
     }
 
@@ -438,15 +446,15 @@
         font-size: 2.4rem;
     }
 
-    #plans-h5 {
+    .plans-h5 {
         font-size: 1.2rem;
     }
 
-    #plans-new-price {
+    .plans-new-price {
         font-size: 2.4rem;
     }
 
-    h3#plans-new-price.pink-space {
+    h3.plans-new-price.pink-space {
         font-size: 2.6rem;
     }
 
@@ -517,7 +525,7 @@
     }
 
     /* HOW IT WORKS */
-    #HIW-h4 {
+    .HIW-h4 {
         font-size: 1.89rem;
     }
 
@@ -530,7 +538,7 @@
     }
 
     /* HOW IT'LL BE */
-    #carrousel-video {
+    .carrousel-video {
         width: 65%;
     }
 
@@ -554,7 +562,7 @@
     }
 
     /* feedback */
-    #feedback-img {
+    .feedback-img {
         width: 35% !important;
     }
 
@@ -583,7 +591,7 @@
         font-size: 2.25rem;
     }
 
-    #home-div2-p {
+    .home-div2-p {
         font-size: 1.4rem;
     }
 
@@ -607,7 +615,7 @@
     }
 
     /* HOW IT'LL BE */
-    #carrousel-video {
+    .carrousel-video {
         width: 65%;
     }
 
@@ -674,7 +682,7 @@
         font-size: 2rem;
     }
 
-    #home-div2-p {
+    .home-div2-p {
         font-size: 1.25rem;
     }
 
@@ -689,7 +697,7 @@
         margin: 20px 0;
     }
 
-    #HIW-h4 {
+    .HIW-h4 {
         font-size: 1.9rem;
     }
 
@@ -785,7 +793,7 @@
     }
 
     /* feedback */
-    #feedback-img {
+    .feedback-img {
         width: 60% !important;
     }
 
@@ -841,7 +849,7 @@
         font-size: 1.9rem;
     }
 
-    #home-div2-p {
+    .home-div2-p {
         padding-right: 36%;
         font-size: 1.2rem;
     }
@@ -922,7 +930,7 @@
         width: 80%;
     }
 
-    #budget-card-p {
+    .budget-card-p {
         font-size: 1rem;
         margin-top: 0.5rem;
     }
@@ -994,8 +1002,8 @@
 
     /* WPP BUTTON */
     .img-btn-wpp {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     /* HOME */
@@ -1035,7 +1043,7 @@
         font-size: 2.2rem;
     }
 
-    #carrousel-video {
+    .carrousel-video {
         width: 90%;
     }
 
@@ -1052,6 +1060,10 @@
     }
 
     /* PLANS */
+    #plans {
+        padding-bottom: 15%;
+    }
+
     .plans-bg {
         height: 75%;
     }
@@ -1101,7 +1113,7 @@
     }
 
     /* feedback */
-    #feedback-img {
+    .feedback-img {
         width: 80% !important;
     }
 
@@ -1126,6 +1138,10 @@
 @media (max-width: 425px) {
 
     /* HOME */
+    .wpp-btn-hidden, .wpp-btn-show {
+        right: 0px;
+    }
+
     .navbar-brand {
         padding-bottom: 0.3125rem;
     }
@@ -1162,7 +1178,7 @@
         margin-top: 100px;
     }
 
-    #home-div2-p {
+    .home-div2-p {
         padding-right: 0;
         font-size: 1.2rem;
     }
@@ -1196,7 +1212,7 @@
         width: 89%;
     }
 
-    #HIW-h4 {
+    .HIW-h4 {
         font-size: 1.7rem;
     }
 
@@ -1217,11 +1233,15 @@
         font-size: 2rem;
     }
 
-    #carrousel-video {
+    .carrousel-video {
         width: 90%;
     }
 
     /* PLANS */
+    #plans {
+        padding-bottom: 25%;
+    }
+
     #plans-h3 {
         inline-size: 338px
     }
@@ -1316,7 +1336,7 @@
         font-size: 2.2rem;
     }
 
-    #feedback-img {
+    .feedback-img {
         width: 80% !important;
     }
 
@@ -1342,7 +1362,7 @@
     }
 
     #email-footer-btn {
-        padding: 8px 50px;
+        padding: 8px 49px;
     }
 
     #SoutEast {
@@ -1363,7 +1383,7 @@
     }
 
     #notebook {
-        bottom: 637px;
+        bottom: 605px;
     }
 
     /* budget */
@@ -1425,7 +1445,7 @@
         left: 0px;
     }
 
-    #home-div2-p {
+    .home-div2-p {
         text-align: justify;
     }
 
@@ -1464,6 +1484,10 @@
     }
 
     /* PLANS */
+    #plans {
+        padding-bottom: 45%;
+    }
+
     #plans-h3 {
         inline-size: 250px;
     }
@@ -1491,15 +1515,15 @@
         margin-left: 0%;
     }
 
-    #plans-h5 {
+    .plans-h5 {
         font-size: 1.1rem;
     }
 
-    #plans-new-price {
+    .plans-new-price {
         font-size: 2rem;
     }
 
-    h3#plans-new-price.pink-space {
+    h3.plans-new-price.pink-space {
         font-size: 2.3rem;
     }
 
@@ -1581,7 +1605,7 @@
         inline-size: 233px;
     }
 
-    #HIW-h4 {
+    .HIW-h4 {
         font-size: 1.5rem;
     }
 
@@ -1600,10 +1624,6 @@
     }
 
     /* PLANS */
-    #plans {
-        padding-bottom: 45%;
-    }
-
     #plans-h3 {
         font-size: 1.8rem;
         inline-size: 300px;
@@ -1635,7 +1655,7 @@
     }
 
     /* budget */
-    .btn {
+    .btn-1 {
         padding: 10px 30px;
     }
 
