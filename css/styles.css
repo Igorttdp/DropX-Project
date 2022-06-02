@@ -262,7 +262,7 @@ div#h0.col-lg-5 {
 }
 
 #how-itll-be {
-    background-image: url(../assets/howItWillBe/HIBbackground.png);
+    background-image: linear-gradient(65deg, #FEA5FF 0%, #FFEDFF 60%, #FECAFF 90%);
     background-size: cover;
     background-size: -webkit-cover;
     background-size: -moz-cover;
@@ -462,7 +462,7 @@ div h5.plans-h5, div h3.plans-new-price {
 }
 
 #delivery-time {
-    background-image: url(../assets/deliver/DTbackground.png);
+    background-image: linear-gradient(60deg, #532656 0%, #351839 60%, #3F1D43 90%);
     background-size: cover;
     background-size: -webkit-cover;
     background-size: -moz-cover;
@@ -494,12 +494,12 @@ div h5.plans-h5, div h3.plans-new-price {
 
 /* PART 2 */
 #budget {
-    background-image: url(../assets/deliver/budgetBackground.png);
+    background-image: linear-gradient(220deg, #fb91fd 0%, #FEE2FF 50%, #fb91fd 100%);
+    padding: 0 16% 3%;
     background-size: cover;
     background-size: -webkit-cover;
     background-size: -moz-cover;
-    background-size: -o-cover;
-    padding: 0 16% 3%;
+    background-size: -o-cover; 
 }
 
 .darkPurple-card-bg {
