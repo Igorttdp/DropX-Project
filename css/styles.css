@@ -261,14 +261,6 @@ div#h0.col-lg-5 {
     bottom: 60px;
 }
 
-#how-itll-be {
-    background-image: linear-gradient(65deg, #FEA5FF 0%, #FFEDFF 60%, #FECAFF 90%);
-    background-size: cover;
-    background-size: -webkit-cover;
-    background-size: -moz-cover;
-    background-size: -o-cover;
-}
-
 #moon-1, #moon-2 {
     position: absolute;
 }
@@ -284,6 +276,15 @@ div#h0.col-lg-5 {
 }
 
 /* HOW IT'LL BE */
+
+#how-itll-be {
+    background-image: linear-gradient(65deg, #FEA5FF 0%, #FFEDFF 60%, #FECAFF 90%);
+    background-size: cover;
+    background-size: -webkit-cover;
+    background-size: -moz-cover;
+    background-size: -o-cover;
+}
+
 /* CARROUSEL */
 
 .carrousel-video {
